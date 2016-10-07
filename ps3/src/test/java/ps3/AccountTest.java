@@ -31,7 +31,7 @@ public class AccountTest {
 
 	@Test
 	public void test() {
-		testAccount.setAnnualInterestRate(4.5);
+		testAccount.setAnnualInterestRate(0.045);
 		
 		try{
 			testAccount.withdraw(2500);
